@@ -1,36 +1,3 @@
-/**
- * SinkAStartupSingle.java
- *
- * Single-file Java Swing game: "Sink A Startup" (Gaming Style)
- * - Combined into one .java file (all classes nested)
- * - Uses PNG assets in assets/ (ships/, explosions/, sound/)
- * - Plays looping background music (WAV)
- * - Camera shake on hit/kill
- * - Particle debris animation
- * - Debug mode to reveal ship icons
- * - Restart button
- *
- * Project folder should contain:
- *  SinkAStartupSingle.java
- *  assets/
- *    ships/ship_poniez.png
- *    ships/ship_hacqi.png
- *    ships/ship_cabista.png
- *    explosions/explosion1.png
- *    explosions/explosion2.png
- *    explosions/explosion3.png
- *    sound/background_music.wav
- *    sound/hit.wav
- *    sound/kill.wav
- *
- * If assets are absent, the code gracefully draws fallback icons and uses simple beeps.
- *
- * Java: any standard JDK with Swing (11+ recommended)
- *
- * Author: ChatGPT (GPT-5 Thinking mini)
- * Date: 2025-12-11
- */
-
 import javax.swing.*;
 import javax.swing.Timer;
 import javax.swing.border.*;
