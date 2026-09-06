@@ -32,6 +32,12 @@ A retro sci-fi desktop strategy game built with Java Swing, inspired by classic 
     
 ---
 
+## Note
+
+- **If the assets/ directory or individual files are missing, the game still launches and plays smoothly using procedural rendering and fallback UI themes.**
+
+---
+
 ## Directory Structure
 
 To run the game with full visual and sound effects, maintain the following directory structure:
