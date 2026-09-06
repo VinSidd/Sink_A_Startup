@@ -21,6 +21,17 @@ A retro sci-fi desktop strategy game built with Java Swing, inspired by classic 
 
 ---
 
+## How to Play
+
+- **Objective:** Locate and sink all hidden startups across the 7×7 grid (`a0` to `g6`) in as few turns as possible.
+- **Controls:** Click any tile to strike. Use the side panel to toggle difficulty, sound, or debug mode.
+- **Tile Signals:**
+  - `Gray`: Miss
+  - `Orange`: Hit
+  - `Red`: Sunk (Entire startup destroyed)
+    
+---
+
 ## Directory Structure
 
 To run the game with full visual and sound effects, maintain the following directory structure:
